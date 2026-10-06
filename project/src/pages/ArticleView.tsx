@@ -85,7 +85,7 @@ const ArticleView: React.FC = () => {
                     <h3 className="text-xl font-bold text-gray-800">BlueWave Zone</h3>
                     <span className="text-xs bg-teal-100 text-teal-800 px-2 py-0.5 rounded-full font-medium">Team</span>
                   </div>
-                  <p className="text-gray-600 mt-1">Pioneering sustainable agricultural solutions through innovative microbial research and technology</p>
+                  <p className="text-gray-600 mt-1">Pioneering sustainable solutions through innovative microbial research and technology</p>
                 </div>
               </div>
             </div>
