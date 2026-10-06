@@ -813,12 +813,12 @@ export const articlePosts: ArticlePost[] = [
 
   // Industrial Applications
   {
-    title: 'The Role of Beneficial Bacteria in Industrial Waste Management',
-    excerpt: 'Beneficial bacteria, particularly those adept at breaking down organic compounds like fats, oils,…',
+    title: 'Hydrocarbons in Soil and Water',
+    excerpt: 'Hydrocarbon pollution is one of the most common forms of industrial contamination, but it is rarely a uniform problem. Fuels, oils and heavier petroleum fractions behave differently once released into soil or water, which means that remediation strategies need to be designed around the characteristics of the pollutant and the affected environment.',
     date: '2025-08-07',
     category: 'Industry',
-    image: '/images/industrial-wastewater-treatment-bacteria.jpg',
-    slug: 'bacteria-waste-management',
+    image: '/images/Oil-Stained Hand Over Polluted River.png',
+    slug: 'hydrocarbons-soil-water',
     author: {
       name: 'Industrial Solutions Team',
       email: 'admin@bluewavezone.co.za',
@@ -826,40 +826,80 @@ export const articlePosts: ArticlePost[] = [
       bio: 'Experts in industrial applications of microbial solutions'
     },
     content: (
-      <div className="prose max-w-none space-y-6">
-        <h1 className="text-3xl font-bold text-gray-900">The Role of Beneficial Bacteria in Industrial Waste Management</h1>
-        
+      <div className="prose max-w-none space-y-8">
+        <h1 className="text-3xl font-bold text-gray-900">Hydrocarbons in Soil and Water</h1>
+
         <section className="space-y-4">
-          <p className="text-gray-700 leading-relaxed">
-            Beneficial bacteria, particularly those adept at breaking down organic compounds like fats, oils, and grease, offer a natural and effective solution for managing industrial waste. These microorganisms, such as species of Pseudomonas, Bacillus, and Lactobacillus, are capable of enzymatic degradation of complex FOG compounds, transforming them into simpler, non-polluting forms.
+          <p className="text-xl text-gray-700 leading-relaxed font-medium">
+            Hydrocarbon pollution is one of the most common forms of industrial contamination, but it is rarely a uniform problem. Fuels, oils and heavier petroleum fractions behave differently once released into soil or water, which means that remediation strategies need to be designed around the characteristics of the pollutant and the affected environment.
           </p>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold text-gray-800">Application in Sewage Treatment Plants</h2>
+          <h2 className="text-2xl font-semibold text-gray-800">Understanding Hydrocarbon Pollution</h2>
           <p className="text-gray-700 leading-relaxed">
-            In sewage treatment plants, the introduction of specific strains of beneficial bacteria from the Blue Wave Zone extracted components can significantly optimize the degradation process of organic waste. These bacteria accelerate the breakdown of FOG components, reducing sludge volume, minimizing foul odors, and enhancing overall treatment efficiency. Their ability to operate under varying environmental conditions makes them highly adaptable and efficient in wastewater management.
+            Hydrocarbon contamination may result from industrial activity, transport incidents, leaking pipelines, tank farms, fuel storage areas, processing facilities, oil spills and legacy contamination at older industrial sites.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            The term <strong>Total Petroleum Hydrocarbons</strong>, or TPH, is commonly used to describe a broad range of petroleum-derived compounds. These may include petrol, diesel, kerosene, lubricating oils and greases.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Hydrocarbons do not all behave in the same way after entering the environment. Their movement, persistence and environmental effect depend on factors such as molecular structure, volatility, solubility and their tendency to bind to soil or organic matter.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Lighter petroleum fractions are generally more mobile and volatile. Heavier fractions may be less mobile but can persist in contaminated soils for longer periods. Aromatic compounds and polycyclic aromatic hydrocarbons may introduce additional ecological and environmental concerns.
           </p>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold text-gray-800">Industrial Processes and FOG Pollution Remediation</h2>
+          <h2 className="text-2xl font-semibold text-gray-800">Soil and Water Contamination</h2>
           <p className="text-gray-700 leading-relaxed">
-            Industries dealing with high volumes of FOG can benefit substantially from adopting these biotechnological solutions. For example, in the food processing and dairy industries, where FOG waste is prevalent, the use of these beneficial bacteria can not only aid in waste treatment but also in maintaining pipeline and drainage systems, preventing blockages, and mitigating the risk of environmental contamination.
+            Hydrocarbon pollution can affect a wide range of environmental settings, including:
+          </p>
+          <ul className="grid gap-3 pl-0 list-none md:grid-cols-2">
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Contaminated industrial soil and former operational sites</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Pipeline and storage leaks</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Tank farms and processing areas</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Surface spills</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Groundwater and freshwater systems</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4">Coastal and marine environments</li>
+            <li className="rounded-lg border border-gray-200 bg-gray-50 p-4 md:col-span-2">Hydrocarbon-affected residues associated with industrial operations</li>
+          </ul>
+        </section>
+
+        <section className="space-y-4 rounded-xl border-l-4 border-teal-500 bg-teal-50 p-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Why Site-Specific Remediation Matters</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Because hydrocarbon pollution varies considerably from site to site, there is rarely a sensible one-size-fits-all response.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            The nature of the contaminant, its concentration, the depth and extent of contamination, the soil or water conditions, environmental sensitivity and the required end-point all influence the remediation strategy.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Blue Wave Zone therefore approaches hydrocarbon pollution as a <strong>site-specific environmental problem</strong>. The objective is to understand the contamination before determining the most appropriate biological remediation response.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            This is preferable to presenting hydrocarbon treatment as a fixed product or formula. The older brochure itself recognises that remedial methods need to be considered on a site-specific basis because the compounds comprising petroleum contamination can behave very differently in the environment.
           </p>
         </section>
 
         <section className="space-y-4">
+          <h2 className="text-2xl font-semibold text-gray-800">Areas of Application</h2>
           <p className="text-gray-700 leading-relaxed">
-            We are developing robust consortia of bacteria that can withstand varied industrial conditions, and creating sustainable, cost-effective deployment strategies.
+            Blue Wave Zone can assess hydrocarbon contamination affecting soil or water arising from industrial operations, fuel and oil spills, pipelines, storage installations, tank and processing facilities and related industrial environments.
           </p>
-          
           <p className="text-gray-700 leading-relaxed">
-            The application of beneficial bacteria from the Blue Wave Zone in industrial settings, particularly for FOG pollution remediation, opens up new pathways for sustainable industrial waste management. This approach not only aligns with environmental stewardship but also offers practical, efficient solutions for industries grappling with waste management challenges.
+            The required remediation strategy will depend on the circumstances of the site and the environmental objective to be achieved.
           </p>
-          
-          <p className="text-gray-700 leading-relaxed">
-            As industries increasingly seek sustainable solutions, the role of beneficial bacteria in revolutionizing waste treatment processes becomes ever more pivotal.
+        </section>
+
+        <section className="space-y-4 rounded-xl bg-gray-900 p-6 text-white">
+          <h2 className="text-2xl font-semibold">Further Information</h2>
+          <p className="leading-relaxed text-gray-100">
+            Hydrocarbon remediation projects frequently have unique characteristics and should therefore be assessed individually.
+          </p>
+          <p className="font-semibold leading-relaxed text-white">
+            For further information, or to discuss a specific hydrocarbon contamination problem, please contact Blue Wave Zone using the email address provided under the ABOUT section of this website.
           </p>
         </section>
       </div>

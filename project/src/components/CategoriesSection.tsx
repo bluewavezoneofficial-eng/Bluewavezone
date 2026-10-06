@@ -122,10 +122,10 @@ const categories: Category[] = [
     name: 'Industrial Applications',
     articles: [
       {
-        title: 'The Role of Beneficial Bacteria in Industrial Waste Management',
-        excerpt: 'Beneficial bacteria, particularly those adept at breaking down organic compounds like fats, oils, and grease, offer a natural and effective solution for managing industrial waste.',
-        slug: 'bacteria-waste-management',
-        image: '/images/industrial-wastewater-treatment-bacteria.jpg',
+        title: 'Hydrocarbons in Soil and Water',
+        excerpt: 'Hydrocarbon contamination from fuels, oils, pipelines, storage facilities and industrial activity can affect soil, groundwater, freshwater and marine environments. Because different hydrocarbons vary in mobility, persistence and environmental impact, effective remediation requires a carefully considered, site-specific solution.',
+        slug: 'hydrocarbons-soil-water',
+        image: '/images/Oil-Stained Hand Over Polluted River.png',
       },
       {
         title: 'WASTE NOT WANT NOT: Application in Sewage Treatment Plants',
